@@ -1,0 +1,95 @@
+html{
+    display:block;
+    min-height:50%;
+}
+.tag{
+    min-height:800px;
+    display: flex;
+    padding:5px,10px;
+    background-repeat: no-repeat;
+    background-image:url('../friend_bond.html/logi_image.jpg');
+    background-size:cover;
+    background-position:center;
+    background-blend-mode:normal;
+}
+.log{
+   display:flow-root;
+   position: absolute;
+   padding:50px;
+   width:20%;
+   margin-top:7%;
+   margin-left:470px;
+   padding-right:17%;
+   background-color: rgb(2, 5, 176);
+   border-bottom-right-radius: 10%;
+   border-top-left-radius: 10%;
+   border-top-right-radius: 10%;
+   border-bottom-left-radius: 10%;
+}
+.in1{
+    display: flex;
+    position: relative;
+    margin-bottom:35px;
+    width: 400px;
+    padding:4%;
+   border-radius:20px;
+   border-style:none;
+   background: wheat;
+}
+.in2{
+    display: flex;
+    position: relative;
+    margin-bottom:35px;
+    width:400px;
+    padding:4%;
+   border-radius:20px;
+   border-style:none;
+   background: wheat;
+}
+.sub{
+    width:90px;
+    padding:3%;
+    border-bottom-right-radius: 15%;
+   border-top-left-radius: 15%;
+   border-top-right-radius: 15%;
+   border-bottom-left-radius: 15%;
+   background: wheat;
+}
+.res{
+    width:90px;
+    padding:3%;
+    border-bottom-right-radius: 15%;
+   border-top-left-radius: 15%;
+   border-top-right-radius: 15%;
+   border-bottom-left-radius: 15%;
+   background: wheat;
+}
+label{
+    color:rgb(164, 252, 57);
+    font-size:30px;
+}
+.log a{
+    color:deepskyblue;
+}
+.log h3{
+    margin-left: 210px;
+    font-size:40px;
+    text-decoration: underline;
+}
+marquee{
+    margin-top:1%;
+    height:43px;
+    padding:20px;
+    border-radius: 20px;
+    background-color:deeppink;
+    color:rgb(0, 0, 0);
+    animation: shine 2s linear infinite;
+}
+@keyframes shine{
+    25%{background: rgb(239, 87, 22)};
+    50%{background: yellow};
+}
+.log p{
+    width:200px;
+    margin-left:300px;
+}
