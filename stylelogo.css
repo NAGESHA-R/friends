@@ -7,7 +7,7 @@ html{
     display: flex;
     padding:5px,10px;
     background-repeat: no-repeat;
-    background-image:url('../friend_bond.html/logi_image.jpg');
+    background-image:url('../friends/logi_image.jpg');
     background-size:cover;
     background-position:center;
     background-blend-mode:normal;
